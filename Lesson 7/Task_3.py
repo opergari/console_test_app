@@ -37,3 +37,30 @@ while True:
 
     else:
         print("Неверный ввод. Пожалуйста, выберите операцию из списка.")
+
+# # Task 3
+# contacts = {}
+# menu = 'Add new item - add\nUpdate item - update\nDelete item - del\nDet item - get\nGet contacts-all\nExit - exit\n'
+#
+# while (answer := input(menu).lower()) != 'exit':
+#     if answer == 'add':
+#         name, phone = input('name='), input('phone')
+#         contacts[name] = phone
+#     elif answer == 'update':
+#         name, phone = input('name='), input('phone')
+#         if name not in contacts:
+#             print('Input error!')
+#             continue
+#         contacts[name] = phone
+#     elif answer == 'del':
+#         name = input('name=')
+#         if name not in contacts:
+#             print('Input error!')
+#             continue
+#         del contacts[name]
+#     elif answer == 'get':
+#         name = input('name=')
+#         print(contacts.get(name, 'Input error!'))
+#     elif answer == 'all':
+#         for key, value in contacts.items():
+#             print(f'{key} - {value}')

@@ -11,5 +11,13 @@ for item in translations:
         print(f'{item} - {translations[item]}')
 
 
-
+# # Task 2
+# vocabulary = {
+#     'cat': 'кіт',
+#     'dog': 'собака',
+# }
+#
+# text = input('text=').lower().split()
+# for item in text:
+#     print(vocabulary.get(item, item), end=' ')
 
