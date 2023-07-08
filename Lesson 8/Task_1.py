@@ -1,3 +1,3 @@
 def res(a, b, c):
-    print(str(a + b) + c)
-res(7, 26, 'коровы')
+    return str(a + b) + c
+print(res(7, 26, 'коровы'))

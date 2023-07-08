@@ -1,4 +1,4 @@
 import roman
 def num_roman(a):
-    print(roman.fromRoman(a))
-num_roman('XVI')
+    return roman.fromRoman(a)
+print(num_roman('XVI'))
